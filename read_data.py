@@ -16,8 +16,8 @@ for i in FILENAMES:
 fileID=np.array([i[:-4] for i in FILENAMES]) #experiment name array
 
 #specifying wanted columns of data from data file (USINE format)
-COLUMNS = ['Energy','Intensity','Err_stat-','Err_stat+','Err_syst-','Err_syst+']
-column_ind = [3,6,7,8,9,10] 
+COLUMNS = ['Energy','Intensity','Err_stat-','Err_stat+','Err_syst-','Err_syst+','Flux']
+column_ind = [3,6,7,8,9,10,11] 
 
 
 
